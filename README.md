@@ -4,7 +4,8 @@ This repository is backend API using Django. This API will be used to manage a s
 
 
 # Implementation
-![Graphic description](https://github.com/raulespecialist/myelp/blob/a956e72cf3277722820098d4fb8f0a4289556c4b/description.png)
+![Graphic description](https://user-images.githubusercontent.com/54911620/198419624-96162dbe-5660-4ecd-9c11-b271a3eeb57c.png)
+
 ### Description
 Because of the flexibility offered by the framework. We will use Django as a base for our project, since we have the opportunity to use its MVC systems for Frontend and Backend, as well as having the possibility to extend it with a REST API system or extend it with any of the Python libraries, From filtered , partitioning, joins and even advanced PostgreSQL search functions.
 
@@ -17,8 +18,8 @@ Gunicorn is a pure Python WSGI server for UNIX. It has no dependencies and is ea
 ### Install
 The installation is done by docker-compose.
 
-    git clone https://github.com/raulespecialist/myelp.git
-    cd myelp
+    https://github.com/raulespecialist/booking_room.git
+    cd booking_room
     docker-compose up
 
 To start using the app, five users have been created from the dockerfile entrypoint.
@@ -33,10 +34,30 @@ To start using the app, five users have been created from the dockerfile entrypo
 
 
 ## URLS endpoints
+
 To enter the navigable Root Api http://127.0.0.1:8000/api/v1/
+
 To view or create Rooms http://127.0.0.1:8000/api/v1/room/
+
 To view or create Events http://127.0.0.1:8000/api/v1/event/
+
 To view or create Books http://127.0.0.1:8000/api/v1/book/
 
 ## Explanation
-To create rooms and events, which can only be done by users of type 'Business' enter as follows with some of the 'business' users (business1 or business2)
+To create rooms and events, which can only be done by users of type **'Business'** enter as follows with some of the 'business' users (business1 or business2)
+
+#### First login button
+
+![login-drf](https://user-images.githubusercontent.com/54911620/198420773-d3976136-9c7e-42a6-b276-96fd8a309367.png)
+#### Form login
+
+![login-drf1](https://user-images.githubusercontent.com/54911620/198420771-d336663c-9165-4c2b-9201-5b079f4d5430.png)
+#### Login success
+
+![login-drf2](https://user-images.githubusercontent.com/54911620/198420768-95244806-69b1-483c-a013-c82da27c3e81.png)
+
+
+Below each endpoint there is a form to test the POST methods, and DELETE in your case. You can play with them.
+
+
+
